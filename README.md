@@ -116,7 +116,7 @@ public class WXPayExample {
 
 ## Java Doc
 
-见 。。。
+https://wxpay.github.io/sdk/javadoc/
 
 ## License
 BSD
