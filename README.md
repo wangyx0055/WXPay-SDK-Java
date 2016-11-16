@@ -33,7 +33,7 @@ com.qq.weixin.pay.WXPay类下提供了对应的方法：
 ## 示例
 MyConfig.java:
 ```java
-import com.qq.weixin.pay.WXPayConfig;
+import com.github.wxpay.WXPayConfig;
 import java.io.*;
 
 public class MyConfig implements WXPayConfig{
@@ -74,7 +74,7 @@ public class MyConfig implements WXPayConfig{
 
 WXPayExample.java:
 ```java
-import com.qq.weixin.pay.WXPay;
+import com.github.wxpay.WXPay;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.qq.weixin.pay;
+package com.github.wxpay;
 
 import com.github.kevinsawicki.http.HttpRequest;
 import javax.net.ssl.*;

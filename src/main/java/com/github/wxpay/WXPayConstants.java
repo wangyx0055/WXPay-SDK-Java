@@ -1,4 +1,4 @@
-package com.qq.weixin.pay;
+package com.github.wxpay;
 
 /**
  * 常量

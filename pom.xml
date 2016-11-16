@@ -5,7 +5,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.qq.weixin.pay</groupId>
+    <groupId>com.github.wxpay</groupId>
     <artifactId>wxpay-sdk</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 

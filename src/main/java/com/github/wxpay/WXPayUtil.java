@@ -1,4 +1,4 @@
-package com.qq.weixin.pay;
+package com.github.wxpay;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
