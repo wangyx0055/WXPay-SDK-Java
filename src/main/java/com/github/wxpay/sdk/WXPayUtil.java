@@ -1,4 +1,4 @@
-package com.github.wxpay;
+package com.github.wxpay.sdk;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;

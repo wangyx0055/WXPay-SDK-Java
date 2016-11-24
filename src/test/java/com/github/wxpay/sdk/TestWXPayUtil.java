@@ -1,4 +1,4 @@
-package com.github.wxpay;
+package com.github.wxpay.sdk;
 
 import org.junit.After;
 import org.junit.Before;

@@ -1,4 +1,4 @@
-package com.github.wxpay;
+package com.github.wxpay.sdk;
 
 import com.github.kevinsawicki.http.HttpRequest;
 import javax.net.ssl.*;
