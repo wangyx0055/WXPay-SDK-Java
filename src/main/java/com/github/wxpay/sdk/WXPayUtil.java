@@ -57,6 +57,18 @@ public class WXPayUtil {
         return xmOut.outputString(doc);
     }
 
+    // public static String mapToXml(Map<String, Object> data) {
+    //     Element root=new Element("xml");
+    //     Document doc=new Document();
+    //     for(String k:data.keySet()) {
+    //         Element child=new Element(k);
+    //         child.addContent(data.get(k).toString());
+    //         root.addContent(child);
+    //     }
+    //     doc.setRootElement(root);
+    //     XMLOutputter xmOut = new XMLOutputter(Format.getPrettyFormat());
+    //     return xmOut.outputString(doc);
+    // }
 
     /**
      * 生成带有sign的XML格式字符串
@@ -110,7 +122,6 @@ public class WXPayUtil {
      */
     public static String generateSignature(final Map<String, String> data, String key) {
         Set<String> keySet = data.keySet();
-        keySet.remove(WXPayConstants.SIGN);
         String[] keyArray = keySet.toArray(new String[keySet.size()]);
         Arrays.sort(keyArray);
         StringBuilder sb = new StringBuilder();
