@@ -28,7 +28,14 @@ com.qq.weixin.pay.WXPay类下提供了对应的方法：
 
 
 ## 安装
-通过maven，具体待定。
+maven:
+```
+<dependency>
+    <groupId>com.github.wxpay</groupId>
+    <artifactId>wxpay-sdk</artifactId>
+    <version>0.0.1</version>
+</dependency>
+```
 
 ## 示例
 MyConfig.java:

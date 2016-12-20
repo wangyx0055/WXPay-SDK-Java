@@ -6,21 +6,24 @@ public interface WXPayConfig {
 
 
     /**
-     * 获取App ID
+     * 获取 App ID
+     *
      * @return App ID
      */
     public String getAppID();
 
 
     /**
-     * 获取Mch ID
+     * 获取 Mch ID
+     *
      * @return Mch ID
      */
     public String getMchID();
 
 
     /**
-     * 获取API密钥
+     * 获取 API 密钥
+     *
      * @return API密钥
      */
     public String getKey();
@@ -28,6 +31,7 @@ public interface WXPayConfig {
 
     /**
      * 获取商户证书内容
+     *
      * @return 商户证书内容
      */
     public InputStream getCertStream();
@@ -35,6 +39,7 @@ public interface WXPayConfig {
 
     /**
      * HTTP(S)请求超时时间，单位毫秒
+     *
      * @return 超时时间
      */
     public int getTimeOutMs();

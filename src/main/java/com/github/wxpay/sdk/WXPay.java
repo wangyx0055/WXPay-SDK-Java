@@ -159,7 +159,7 @@ public class WXPay {
     }
 
     /**
-     * 作用：提交刷卡支付<br/>
+     * 作用：提交刷卡支付<br>
      * 场景：刷卡支付
      * @param reqData 向wxpay post的请求数据
      * @return API返回数据
@@ -171,7 +171,7 @@ public class WXPay {
 
 
     /**
-     * 作用：提交刷卡支付<br/>
+     * 作用：提交刷卡支付<br>
      * 场景：刷卡支付
      * @param reqData 向wxpay post的请求数据
      * @param timeoutMs 超时时间，单位是毫秒
@@ -185,7 +185,7 @@ public class WXPay {
 
 
     /**
-     * 作用：统一下单<br/>
+     * 作用：统一下单<br>
      * 场景：公共号支付、扫码支付、APP支付
      * @param reqData 向wxpay post的请求数据
      * @return API返回数据
@@ -197,7 +197,7 @@ public class WXPay {
 
 
     /**
-     * 作用：统一下单<br/>
+     * 作用：统一下单<br>
      * 场景：公共号支付、扫码支付、APP支付
      * @param reqData 向wxpay post的请求数据
      * @param timeoutMs 超时时间，单位是毫秒 超时时间，单位是毫秒
@@ -211,7 +211,7 @@ public class WXPay {
 
 
     /**
-     * 作用：查询订单<br/>
+     * 作用：查询订单<br>
      * 场景：刷卡支付、公共号支付、扫码支付、APP支付
      * @param reqData 向wxpay post的请求数据
      * @return API返回数据
@@ -223,7 +223,7 @@ public class WXPay {
 
 
     /**
-     * 作用：查询订单<br/>
+     * 作用：查询订单<br>
      * 场景：刷卡支付、公共号支付、扫码支付、APP支付
      * @param reqData 向wxpay post的请求数据 int
      * @param timeoutMs 超时时间，单位是毫秒
@@ -237,7 +237,7 @@ public class WXPay {
 
 
     /**
-     * 作用：撤销订单<br/>
+     * 作用：撤销订单<br>
      * 场景：刷卡支付
      * @param reqData 向wxpay post的请求数据
      * @return API返回数据
@@ -249,8 +249,8 @@ public class WXPay {
 
 
     /**
-     * 作用：撤销订单<br/>
-     * 场景：刷卡支付<br/>
+     * 作用：撤销订单<br>
+     * 场景：刷卡支付<br>
      * 其他：需要证书
      * @param reqData 向wxpay post的请求数据
      * @param timeoutMs 超时时间，单位是毫秒
@@ -264,7 +264,7 @@ public class WXPay {
 
 
     /**
-     * 作用：关闭订单<br/>
+     * 作用：关闭订单<br>
      * 场景：公共号支付、扫码支付、APP支付
      * @param reqData 向wxpay post的请求数据
      * @return API返回数据
@@ -276,7 +276,7 @@ public class WXPay {
 
 
     /**
-     * 作用：关闭订单<br/>
+     * 作用：关闭订单<br>
      * 场景：公共号支付、扫码支付、APP支付
      * @param reqData 向wxpay post的请求数据
      * @param timeoutMs 超时时间，单位是毫秒
@@ -290,7 +290,7 @@ public class WXPay {
 
 
     /**
-     * 作用：申请退款<br/>
+     * 作用：申请退款<br>
      * 场景：刷卡支付、公共号支付、扫码支付、APP支付
      * @param reqData 向wxpay post的请求数据
      * @return API返回数据
@@ -302,8 +302,8 @@ public class WXPay {
 
 
     /**
-     * 作用：申请退款<br/>
-     * 场景：刷卡支付、公共号支付、扫码支付、APP支付<br/>
+     * 作用：申请退款<br>
+     * 场景：刷卡支付、公共号支付、扫码支付、APP支付<br>
      * 其他：需要证书
      * @param reqData 向wxpay post的请求数据
      * @param timeoutMs 超时时间，单位是毫秒
@@ -317,7 +317,7 @@ public class WXPay {
 
 
     /**
-     * 作用：退款查询<br/>
+     * 作用：退款查询<br>
      * 场景：刷卡支付、公共号支付、扫码支付、APP支付
      * @param reqData 向wxpay post的请求数据
      * @return API返回数据
@@ -329,7 +329,7 @@ public class WXPay {
 
 
     /**
-     * 作用：退款查询<br/>
+     * 作用：退款查询<br>
      * 场景：刷卡支付、公共号支付、扫码支付、APP支付
      * @param reqData 向wxpay post的请求数据
      * @param timeoutMs 超时时间，单位是毫秒
@@ -343,7 +343,7 @@ public class WXPay {
 
 
     /**
-     * 作用：对账单下载（成功时返回对账单数据，失败时返回XML格式数据）<br/>
+     * 作用：对账单下载（成功时返回对账单数据，失败时返回XML格式数据）<br>
      * 场景：刷卡支付、公共号支付、扫码支付、APP支付
      * @param reqData 向wxpay post的请求数据
      * @return API返回数据
@@ -355,8 +355,8 @@ public class WXPay {
 
 
     /**
-     * 作用：对账单下载<br/>
-     * 场景：刷卡支付、公共号支付、扫码支付、APP支付<br/>
+     * 作用：对账单下载<br>
+     * 场景：刷卡支付、公共号支付、扫码支付、APP支付<br>
      * 其他：无论是否成功都返回Map。若成功，返回的Map中含有return_code、return_msg、data，
      *      其中return_code为`SUCCESS`，data为对账单数据。
      * @param reqData 向wxpay post的请求数据
@@ -383,7 +383,7 @@ public class WXPay {
 
 
     /**
-     * 作用：交易保障<br/>
+     * 作用：交易保障<br>
      * 场景：刷卡支付、公共号支付、扫码支付、APP支付
      * @param reqData 向wxpay post的请求数据
      * @return API返回数据
@@ -395,7 +395,7 @@ public class WXPay {
 
 
     /**
-     * 作用：交易保障<br/>
+     * 作用：交易保障<br>
      * 场景：刷卡支付、公共号支付、扫码支付、APP支付
      * @param reqData 向wxpay post的请求数据
      * @param timeoutMs 超时时间，单位是毫秒
@@ -409,7 +409,7 @@ public class WXPay {
 
 
     /**
-     * 作用：转换短链接<br/>
+     * 作用：转换短链接<br>
      * 场景：刷卡支付、扫码支付
      * @param reqData 向wxpay post的请求数据
      * @return API返回数据
@@ -421,7 +421,7 @@ public class WXPay {
 
 
     /**
-     * 作用：转换短链接<br/>
+     * 作用：转换短链接<br>
      * 场景：刷卡支付、扫码支付
      * @param reqData 向wxpay post的请求数据
      * @return API返回数据
@@ -434,7 +434,7 @@ public class WXPay {
 
 
     /**
-     * 作用：授权码查询OPENID接口<br/>
+     * 作用：授权码查询OPENID接口<br>
      * 场景：刷卡支付
      * @param reqData 向wxpay post的请求数据
      * @return API返回数据
@@ -446,7 +446,7 @@ public class WXPay {
 
 
     /**
-     * 作用：授权码查询OPENID接口<br/>
+     * 作用：授权码查询OPENID接口<br>
      * 场景：刷卡支付
      * @param reqData 向wxpay post的请求数据
      * @param timeoutMs 超时时间，单位是毫秒

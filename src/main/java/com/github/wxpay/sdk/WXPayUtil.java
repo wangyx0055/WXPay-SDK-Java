@@ -17,6 +17,7 @@ public class WXPayUtil {
 
     /**
      * XML格式字符串转换为Map
+     *
      * @param strXML XML字符串
      * @return XML数据转换后的Map
      * @throws Exception
@@ -41,6 +42,7 @@ public class WXPayUtil {
 
     /**
      * 将Map转换为XML格式的字符串
+     *
      * @param data Map类型数据
      * @return String
      */
@@ -72,6 +74,7 @@ public class WXPayUtil {
 
     /**
      * 生成带有sign的XML格式字符串
+     *
      * @param data Map类型数据
      * @param key API密钥
      * @return 含有sign字段的XML
@@ -85,6 +88,7 @@ public class WXPayUtil {
 
     /**
      * 判断签名是否正确
+     *
      * @param xmlStr XML格式数据
      * @param key API密钥
      * @return 签名是否正确
@@ -101,6 +105,7 @@ public class WXPayUtil {
 
     /**
      * 判断签名是否正确
+     *
      * @param data Map类型数据
      * @param key API密钥
      * @return 签名是否正确
@@ -116,6 +121,7 @@ public class WXPayUtil {
 
     /**
      * 生成签名
+     *
      * @param data 待签名数据
      * @param key API密钥
      * @return 签名
@@ -139,6 +145,7 @@ public class WXPayUtil {
 
     /**
      * 获取随机字符串 Nonce Str
+     *
      * @return String 随机字符串
      */
     public static String generateNonceStr() {
@@ -148,6 +155,7 @@ public class WXPayUtil {
 
     /**
      * 生成 MD5
+     *
      * @param s 待处理数据
      * @return MD5结果
      */
